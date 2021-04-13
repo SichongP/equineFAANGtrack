@@ -27,7 +27,7 @@ sortOrder tissue=+ sample=+ view=+
     viewUi on
 
         track ATAC_Lamina_AH1_peak
-        parent signalView on
+        parent ATAC_peakView on
         subGroups tissue=Lamina sample=AH1
         autoScale group
         bigDataUrl bigBed/ATAC/Lamina_AH1_CN.bigBed
@@ -41,7 +41,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale on
         
         track ATAC_Lamina_AH2_peak
-        parent signalView on
+        parent ATAC_peakView on
         subGroups tissue=Lamina sample=AH2
         autoScale group
         bigDataUrl bigBed/ATAC/Lamina_AH2_CN.bigBed
@@ -55,7 +55,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale on
         
         track ATAC_Liver_AH1_peak
-        parent signalView on
+        parent ATAC_peakView on
         subGroups tissue=Liver sample=AH1
         autoScale group
         bigDataUrl bigBed/ATAC/Liver_AH1_CN.bigBed
@@ -69,7 +69,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale on
         
         track ATAC_Liver_AH2_peak
-        parent signalView on
+        parent ATAC_peakView on
         subGroups tissue=Liver sample=AH2
         autoScale group
         bigDataUrl bigBed/ATAC/Liver_AH2_CN.bigBed
@@ -93,7 +93,7 @@ sortOrder tissue=+ sample=+ view=+
     viewUi on
 
         track ATAC_Lamina_AH2_signal
-        parent signalView on
+        parent ATAC_signalView on
         subGroups tissue=Lamina sample=AH2
         bigDataUrl https://de.cyverse.org/dl/d/971826CC-B6B8-4E5A-937D-0AE71A823331/Lamina_CP_Nuclei.bigwig
         shortLabel Lamina AH2 biwig
@@ -104,7 +104,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale group
 
         track ATAC_Lamina_AH1_signal
-        parent signalView on
+        parent ATAC_signalView on
         subGroups tissue=Lamina sample=AH1
         bigDataUrl https://de.cyverse.org/dl/d/E1E0F65F-E6D6-482F-BD4C-335FC319F676/Lamina_GS_Nuclei.bigwig
         shortLabel Lamina AH1 bigwig
@@ -115,7 +115,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale group
 
         track ATAC_Liver_AH2_signal
-        parent signalView on
+        parent ATAC_signalView on
         subGroups tissue=Liver sample=AH2
         bigDataUrl https://de.cyverse.org/dl/d/6721E86D-3BC0-44B3-8D25-60209A463B34/Liver_CP_Nuclei.bigwig
         shortLabel Liver AH2 bigwig
@@ -126,7 +126,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale group
 
         track ATAC_Liver_AH1_signal
-        parent signalView on
+        parent ATAC_signalView on
         subGroups tissue=Liver sample=AH1
         bigDataUrl https://de.cyverse.org/dl/d/209985DC-5340-43C2-89A0-7738EFE269F7/Liver_GS_Nuclei.bigwig
         shortLabel Liver AH1 bigwig
@@ -181,7 +181,7 @@ sortOrder tissue=+ sample=+ view=+
     viewUi on
 
         track CTCF_Adipose_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Adipose sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/65524C4B-504C-418E-BA5C-526BC26ADEC0/CP_Adipose_scaled.bw
@@ -195,7 +195,7 @@ sortOrder tissue=+ sample=+ view=+
         autoScale on
 
         track CTCF_Brain_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Brain sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/AC110692-A394-4865-8E28-B51154BE8D40/CP_Brain_scaled.bw
@@ -206,7 +206,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Heart_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Heart sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/D7EB729D-4283-4A47-A238-112FDA729FDC/CP_Heart_scaled.bw
@@ -217,7 +217,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Lamina_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Lamina sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/5DED53B2-424C-45E0-8B94-4D81C2558E7E/CP_Lamina_scaled.bw
@@ -228,7 +228,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Liver_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Liver sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/D98F24C0-D305-4EF8-A6FC-B584ABD7EF14/CP_Liver_scaled.bw
@@ -239,7 +239,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Lung_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Lung sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/BCF75319-AA0D-45F1-B81E-065B7D919A7B/CP_Lung_scaled.bw
@@ -250,7 +250,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Muscle_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Muscle sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/C969C5B3-10CC-4907-8905-448C7B544228/CP_Muscle_scaled.bw
@@ -261,7 +261,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Ovary_AH2_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Ovary sample=AH2
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/1F4718EF-D85F-488D-B9EE-BE957CA4DD43/CP_Ovary_scaled.bw
@@ -272,7 +272,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Adipose_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Adipose sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/EF3A3088-2E83-4C1B-9647-9B2D8A4C17A3/GS_Adipose_scaled.bw
@@ -283,7 +283,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Brain_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Brain sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/EBCB626C-93B1-4F7F-9145-F2D1CF50FFE9/GS_Brain_scaled.bw
@@ -294,7 +294,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Heart_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Heart sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/AEE74A43-886D-4416-804D-1D8A8A9C52CF/GS_Heart_scaled.bw
@@ -305,7 +305,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Lamina_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Lamina sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/579D4786-A534-41AA-AC35-65B8C3922D5E/GS_Lamina_scaled.bw
@@ -316,7 +316,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Liver_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Liver sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/78EAB862-C566-4A9E-A92F-A2915CFDF4F6/GS_Liver_scaled.bw
@@ -327,7 +327,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Lung_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Lung sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/182E0CAC-E756-41BB-B773-D29CE06CD782/GS_Lung_scaled.bw
@@ -338,7 +338,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Muscle_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Muscle sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/21BC9B7B-54F1-40E5-808F-634837B0ADE8/GS_Muscle_scaled.bw
@@ -349,7 +349,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
 
         track CTCF_Ovary_AH1_signal
-        parent signalView on
+        parent CTCF_signalView on
         subGroups tissue=Ovary sample=AH1
         autoScale group
         bigDataUrl https://de.cyverse.org/dl/d/7488C3F1-F39F-4124-A41C-952F5E2CD6A9/GS_Ovary_scaled.bw
