@@ -35,8 +35,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel ATAC peaks from AH1 Lamina, called by HMMRATAC
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track ATAC_Lamina_AH2_peak
         parent ATAC_peakView on
@@ -47,8 +45,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel ATAC peaks from AH2 Lamina, called by HMMRATAC
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track ATAC_Liver_AH1_peak
         parent ATAC_peakView on
@@ -59,8 +55,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel ATAC peaks from AH1 Liver, called by HMMRATAC
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track ATAC_Liver_AH2_peak
         parent ATAC_peakView on
@@ -71,8 +65,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel ATAC peaks from AH2 Liver, called by HMMRATAC
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
     track ATAC_signalView
     parent ATAC
@@ -168,8 +160,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Liver, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Liver_AH1_peak
         parent CTCF_peakView on
@@ -180,8 +170,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Liver, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
         track CTCF_Lamina_AH2_peak
         parent CTCF_peakView on
@@ -192,8 +180,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Lamina, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Lamina_AH1_peak
         parent CTCF_peakView on
@@ -204,8 +190,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Lamina, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
         track CTCF_Adipose_AH2_peak
         parent CTCF_peakView on
@@ -216,8 +200,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Adipose, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Adipose_AH1_peak
         parent CTCF_peakView on
@@ -228,8 +210,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Adipose, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
         track CTCF_Brain_AH2_peak
         parent CTCF_peakView on
@@ -240,8 +220,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Brain, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Brain_AH1_peak
         parent CTCF_peakView on
@@ -252,8 +230,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Brain, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
         track CTCF_Heart_AH2_peak
         parent CTCF_peakView on
@@ -264,8 +240,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Heart, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Heart_AH1_peak
         parent CTCF_peakView on
@@ -276,8 +250,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Heart, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
         track CTCF_Lung_AH2_peak
         parent CTCF_peakView on
@@ -288,8 +260,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Lung, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Lung_AH1_peak
         parent CTCF_peakView on
@@ -300,8 +270,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Lung, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Muscle_AH2_peak
         parent CTCF_peakView on
@@ -312,8 +280,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Muscle, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Muscle_AH1_peak
         parent CTCF_peakView on
@@ -324,8 +290,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Muscle, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
         track CTCF_Ovary_AH2_peak
         parent CTCF_peakView on
@@ -336,8 +300,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH2 Ovary, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
         
         track CTCF_Ovary_AH1_peak
         parent CTCF_peakView on
@@ -348,8 +310,6 @@ sortOrder tissue=+ sample=+ view=+
         longLabel CTCF peaks from AH1 Ovary, called by MACS2, verified by MSPC with replicates
         type bigBed
         visibility dense
-        smoothingWindow 4
-        autoScale on
 
     track CTCF_signalView
     parent CTCF
@@ -373,7 +333,7 @@ sortOrder tissue=+ sample=+ view=+
         smoothingWindow 4
         graphTypeDefault points
         alwaysZero on
-        autoScale on
+        autoScale group
 
         track CTCF_Brain_AH2_signal
         parent CTCF_signalView on
@@ -393,6 +353,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Heart AH2 bigwig
         longLabel CTCF coverage track from AH2 Heart
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Lamina_AH2_signal
@@ -403,6 +364,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lamina AH2 bigwig
         longLabel CTCF coverage track from AH2 Lamina
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Liver_AH2_signal
@@ -413,6 +375,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Liver AH2 bigwig
         longLabel CTCF coverage track from AH2 Liver
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Lung_AH2_signal
@@ -423,6 +386,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lung AH2 bigwig
         longLabel CTCF coverage track from AH2 Lung
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Muscle_AH2_signal
@@ -433,6 +397,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Muscle AH2 bigwig
         longLabel CTCF coverage track from AH2 Muscle
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Ovary_AH2_signal
@@ -443,6 +408,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Ovary AH2 bigwig
         longLabel CTCF coverage track from AH2 Ovary
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Adipose_AH1_signal
@@ -453,6 +419,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Adipose AH1 bigwig
         longLabel CTCF coverage track from AH1 Adipose
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Brain_AH1_signal
@@ -463,6 +430,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Brain AH1 bigwig
         longLabel CTCF coverage track from AH1 Brain
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Heart_AH1_signal
@@ -473,6 +441,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Heart AH1 bigwig
         longLabel CTCF coverage track from AH1 Heart
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Lamina_AH1_signal
@@ -483,6 +452,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lamina AH1 bigwig
         longLabel CTCF coverage track from AH1 Lamina
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Liver_AH1_signal
@@ -493,6 +463,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Liver AH1 bigwig
         longLabel CTCF coverage track from AH1 Liver
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Lung_AH1_signal
@@ -503,6 +474,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lung AH1 bigwig
         longLabel CTCF coverage track from AH1 Lung
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Muscle_AH1_signal
@@ -513,6 +485,7 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Muscle AH1 bigwig
         longLabel CTCF coverage track from AH1 Muscle
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
         track CTCF_Ovary_AH1_signal
@@ -523,5 +496,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Ovary AH1 bigwig
         longLabel CTCF coverage track from AH1 Ovary
         type bigWig
+        alwaysZero on
         smoothingWindow 4
 
