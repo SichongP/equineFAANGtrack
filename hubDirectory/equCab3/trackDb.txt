@@ -24,7 +24,7 @@ longLabel ATAC coverage track from AH2 Lamina, using fresh nuclei
 type bigWig
 visibility dense
 smoothingWindow 4
-autoscale group
+autoScale group
 
 track ATAC_Lamina_AH1
 parent ATAC on
@@ -35,7 +35,7 @@ longLabel ATAC coverage track from AH1 Lamina, using fresh nuclei
 type bigWig
 visibility dense
 smoothingWindow 4
-autoscale group
+autoScale group
 
 track ATAC_Liver_AH2
 parent ATAC on
@@ -46,7 +46,7 @@ longLabel ATAC coverage track from AH2 Liver, using fresh nuclei
 type bigWig
 visibility dense
 smoothingWindow 4
-autoscale group
+autoScale group
 
 track ATAC_Liver_AH1
 parent ATAC on
@@ -57,7 +57,7 @@ longLabel ATAC coverage track from AH1 Liver, using fresh nuclei
 type bigWig
 visibility dense
 smoothingWindow 4
-autoscale group
+autoScale group
 
 track CTCF_Adipose_AH2
 bigDataUrl https://de.cyverse.org/dl/d/65524C4B-504C-418E-BA5C-526BC26ADEC0/CP_Adipose_scaled.bw
