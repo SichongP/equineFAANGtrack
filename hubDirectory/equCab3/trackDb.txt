@@ -36,8 +36,6 @@ sortOrder tissue=+ sample=+ view=+
         type bigBed
         visibility dense
         smoothingWindow 4
-        graphTypeDefault points
-        alwaysZero on
         autoScale on
         
         track ATAC_Lamina_AH2_peak
@@ -50,8 +48,6 @@ sortOrder tissue=+ sample=+ view=+
         type bigBed
         visibility dense
         smoothingWindow 4
-        graphTypeDefault points
-        alwaysZero on
         autoScale on
         
         track ATAC_Liver_AH1_peak
@@ -64,8 +60,6 @@ sortOrder tissue=+ sample=+ view=+
         type bigBed
         visibility dense
         smoothingWindow 4
-        graphTypeDefault points
-        alwaysZero on
         autoScale on
         
         track ATAC_Liver_AH2_peak
@@ -78,8 +72,6 @@ sortOrder tissue=+ sample=+ view=+
         type bigBed
         visibility dense
         smoothingWindow 4
-        graphTypeDefault points
-        alwaysZero on
         autoScale on
 
     track ATAC_signalView
@@ -162,10 +154,202 @@ sortOrder tissue=+ sample=+ view=+
     shortLabel Peaks
     view PK
     visibility dense
-    type bigBed 9 +
+    type bigBed 5
     scoreFilter 0
     scoreFilterLimits 0:1000
     viewUi on
+
+        track CTCF_Liver_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Liver sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Liver.bigBed
+        shortLabel Liver AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Liver, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Liver_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Liver sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Liver.bigBed
+        shortLabel Liver AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Liver, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+
+        track CTCF_Lamina_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Lamina sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Lamina.bigBed
+        shortLabel Lamina AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Lamina, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Lamina_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Lamina sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Lamina.bigBed
+        shortLabel Lamina AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Lamina, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+
+        track CTCF_Adipose_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Adipose sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Adipose.bigBed
+        shortLabel Adipose AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Adipose, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Adipose_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Adipose sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Adipose.bigBed
+        shortLabel Adipose AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Adipose, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+
+        track CTCF_Brain_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Brain sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Brain.bigBed
+        shortLabel Brain AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Brain, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Brain_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Brain sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Brain.bigBed
+        shortLabel Brain AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Brain, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+
+        track CTCF_Heart_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Heart sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Heart.bigBed
+        shortLabel Heart AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Heart, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Heart_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Heart sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Heart.bigBed
+        shortLabel Heart AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Heart, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+
+        track CTCF_Lung_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Lung sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Lung.bigBed
+        shortLabel Lung AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Lung, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Lung_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Lung sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Lung.bigBed
+        shortLabel Lung AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Lung, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Muscle_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Muscle sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Muscle.bigBed
+        shortLabel Muscle AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Muscle, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Muscle_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Muscle sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Muscle.bigBed
+        shortLabel Muscle AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Muscle, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+
+        track CTCF_Ovary_AH2_peak
+        parent CTCF_peakView on
+        subGroups tissue=Ovary sample=AH2 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH2_Ovary.bigBed
+        shortLabel Ovary AH2 CTCF peaks
+        longLabel CTCF peaks from AH2 Ovary, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
+        
+        track CTCF_Ovary_AH1_peak
+        parent CTCF_peakView on
+        subGroups tissue=Ovary sample=AH1 view=PK
+        autoScale group
+        bigDataUrl bigBed/CTCF/AH1_Ovary.bigBed
+        shortLabel Ovary AH1 CTCF peaks
+        longLabel CTCF peaks from AH1 Ovary, called by MACS2, verified by MSPC with replicates
+        type bigBed
+        visibility dense
+        smoothingWindow 4
+        autoScale on
 
     track CTCF_signalView
     parent CTCF
