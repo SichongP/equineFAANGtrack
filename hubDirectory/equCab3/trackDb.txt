@@ -91,6 +91,7 @@ sortOrder tissue=+ sample=+ view=+
     scoreFilter 0
     scoreFilterLimits 0:1000
     viewUi on
+    visibility full
 
         track ATAC_Lamina_AH2_signal
         parent ATAC_signalView on
@@ -99,7 +100,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lamina AH2 biwig
         longLabel ATAC coverage track from AH2 Lamina, using fresh nuclei
         type bigWig
-        visibility dense
         smoothingWindow 4
         autoScale group
 
@@ -110,7 +110,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lamina AH1 bigwig
         longLabel ATAC coverage track from AH1 Lamina, using fresh nuclei
         type bigWig
-        visibility dense
         smoothingWindow 4
         autoScale group
 
@@ -121,7 +120,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Liver AH2 bigwig
         longLabel ATAC coverage track from AH2 Liver, using fresh nuclei
         type bigWig
-        visibility dense
         smoothingWindow 4
         autoScale group
 
@@ -132,7 +130,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Liver AH1 bigwig
         longLabel ATAC coverage track from AH1 Liver, using fresh nuclei
         type bigWig
-        visibility dense
         smoothingWindow 4
         autoScale group
 
@@ -169,6 +166,7 @@ sortOrder tissue=+ sample=+ view=+
     scoreFilter 0
     scoreFilterLimits 0:1000
     viewUi on
+    visibility full
 
         track CTCF_Adipose_AH2_signal
         parent CTCF_signalView on
@@ -178,7 +176,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Adipose AH2 bigwig
         longLabel CTCF coverage track from AH2 Adipose
         type bigWig
-        visibility dense
         smoothingWindow 4
         graphTypeDefault points
         alwaysZero on
@@ -192,7 +189,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Brain AH2 bigwig
         longLabel CTCF coverage track from AH2 Brain
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Heart_AH2_signal
@@ -203,7 +199,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Heart AH2 bigwig
         longLabel CTCF coverage track from AH2 Heart
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Lamina_AH2_signal
@@ -214,7 +209,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lamina AH2 bigwig
         longLabel CTCF coverage track from AH2 Lamina
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Liver_AH2_signal
@@ -225,7 +219,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Liver AH2 bigwig
         longLabel CTCF coverage track from AH2 Liver
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Lung_AH2_signal
@@ -236,7 +229,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lung AH2 bigwig
         longLabel CTCF coverage track from AH2 Lung
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Muscle_AH2_signal
@@ -247,7 +239,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Muscle AH2 bigwig
         longLabel CTCF coverage track from AH2 Muscle
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Ovary_AH2_signal
@@ -258,7 +249,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Ovary AH2 bigwig
         longLabel CTCF coverage track from AH2 Ovary
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Adipose_AH1_signal
@@ -269,7 +259,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Adipose AH1 bigwig
         longLabel CTCF coverage track from AH1 Adipose
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Brain_AH1_signal
@@ -280,7 +269,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Brain AH1 bigwig
         longLabel CTCF coverage track from AH1 Brain
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Heart_AH1_signal
@@ -291,7 +279,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Heart AH1 bigwig
         longLabel CTCF coverage track from AH1 Heart
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Lamina_AH1_signal
@@ -302,7 +289,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lamina AH1 bigwig
         longLabel CTCF coverage track from AH1 Lamina
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Liver_AH1_signal
@@ -313,7 +299,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Liver AH1 bigwig
         longLabel CTCF coverage track from AH1 Liver
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Lung_AH1_signal
@@ -324,7 +309,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Lung AH1 bigwig
         longLabel CTCF coverage track from AH1 Lung
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Muscle_AH1_signal
@@ -335,7 +319,6 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Muscle AH1 bigwig
         longLabel CTCF coverage track from AH1 Muscle
         type bigWig
-        visibility dense
         smoothingWindow 4
 
         track CTCF_Ovary_AH1_signal
@@ -346,6 +329,5 @@ sortOrder tissue=+ sample=+ view=+
         shortLabel Ovary AH1 bigwig
         longLabel CTCF coverage track from AH1 Ovary
         type bigWig
-        visibility dense
         smoothingWindow 4
 
