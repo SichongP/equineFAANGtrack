@@ -1,0 +1,139 @@
+track CTCF_Adipose_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/65524C4B-504C-418E-BA5C-526BC26ADEC0/CP_Adipose_scaled.bw
+shortLabel CTCF_Adipose_AH2
+longLabel CTCF coverage track from AH2 Adipose
+type bigWig
+visibility dense
+
+track CTCF_Brain_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/AC110692-A394-4865-8E28-B51154BE8D40/CP_Brain_scaled.bw
+shortLabel CTCF_Brain_AH2
+longLabel CTCF coverage track from AH2 Brain
+type bigWig
+visibility dense 
+
+track CTCF_Heart_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/D7EB729D-4283-4A47-A238-112FDA729FDC/CP_Heart_scaled.bw
+shortLabel CTCF_Heart_AH2
+longLabel CTCF coverage track from AH2 Heart
+type bigWig
+visibility dense
+
+track CTCF_Lamina_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/5DED53B2-424C-45E0-8B94-4D81C2558E7E/CP_Lamina_scaled.bw
+shortLabel CTCF_Lamina_AH2
+longLabel CTCF coverage track from AH2 Lamina
+type bigWig
+visibility dense
+
+track CTCF_Liver_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/D98F24C0-D305-4EF8-A6FC-B584ABD7EF14/CP_Liver_scaled.bw
+shortLabel CTCF_Liver_AH2
+longLabel CTCF coverage track from AH2 Liver
+type bigWig
+visibility dense
+
+track CTCF_Lung_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/BCF75319-AA0D-45F1-B81E-065B7D919A7B/CP_Lung_scaled.bw
+shortLabel CTCF_Lung_AH2
+longLabel CTCF coverage track from AH2 Lung
+type bigWig
+visibility dense
+
+track CTCF_Muscle_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/C969C5B3-10CC-4907-8905-448C7B544228/CP_Muscle_scaled.bw
+shortLabel CTCF_Muscle_AH2
+longLabel CTCF coverage track from AH2 Muscle
+type bigWig
+visibility dense
+
+track CTCF_Ovary_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/1F4718EF-D85F-488D-B9EE-BE957CA4DD43/CP_Ovary_scaled.bw
+shortLabel CTCF_Ovary_AH2
+longLabel CTCF coverage track from AH2 Ovary
+type bigWig
+visibility dense
+
+track CTCF_Adipose_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/EF3A3088-2E83-4C1B-9647-9B2D8A4C17A3/GS_Adipose_scaled.bw
+shortLabel CTCF_Adipose_AH1
+longLabel CTCF coverage track from AH1 Adipose
+type bigWig
+visibility dense
+
+track CTCF_Brain_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/EBCB626C-93B1-4F7F-9145-F2D1CF50FFE9/GS_Brain_scaled.bw
+shortLabel CTCF_Brain_AH1
+longLabel CTCF coverage track from AH1 Brain
+type bigWig
+visibility dense
+
+track CTCF_Heart_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/AEE74A43-886D-4416-804D-1D8A8A9C52CF/GS_Heart_scaled.bw
+shortLabel CTCF_Heart_AH1
+longLabel CTCF coverage track from AH1 Heart
+type bigWig
+visibility dense
+
+track CTCF_Lamina_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/579D4786-A534-41AA-AC35-65B8C3922D5E/GS_Lamina_scaled.bw
+shortLabel CTCF_Lamina_AH1
+longLabel CTCF coverage track from AH1 Lamina
+type bigWig
+visibility dense
+
+track CTCF_Liver_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/78EAB862-C566-4A9E-A92F-A2915CFDF4F6/GS_Liver_scaled.bw
+shortLabel CTCF_Liver_AH1
+longLabel CTCF coverage track from AH1 Liver
+type bigWig
+visibility dense
+
+track CTCF_Lung_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/182E0CAC-E756-41BB-B773-D29CE06CD782/GS_Lung_scaled.bw
+shortLabel CTCF_Lung_AH1
+longLabel CTCF coverage track from AH1 Lung
+type bigWig
+visibility dense
+
+track CTCF_Muscle_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/21BC9B7B-54F1-40E5-808F-634837B0ADE8/GS_Muscle_scaled.bw
+shortLabel CTCF_Muscle_AH1
+longLabel CTCF coverage track from AH1 Muscle
+type bigWig
+visibility dense
+
+track CTCF_Ovary_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/7488C3F1-F39F-4124-A41C-952F5E2CD6A9/GS_Ovary_scaled.bw
+shortLabel CTCF_Ovary_AH1
+longLabel CTCF coverage track from AH1 Ovary
+type bigWig
+visibility dense
+
+track ATAC_Lamina_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/971826CC-B6B8-4E5A-937D-0AE71A823331/Lamina_CP_Nuclei.bigwig
+shortLabel ATAC_Lamina_AH2
+longLabel ATAC coverage track from AH2 Lamina, using fresh nuclei
+type bigWig
+visibility dense
+
+track ATAC_Lamina_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/E1E0F65F-E6D6-482F-BD4C-335FC319F676/Lamina_GS_Nuclei.bigwig
+shortLabel ATAC_Lamina_AH1
+longLabel ATAC coverage track from AH1 Lamina, using fresh nuclei
+type bigWig
+visibility dense
+
+track ATAC_Liver_AH2
+bigDataUrl: https://de.cyverse.org/dl/d/6721E86D-3BC0-44B3-8D25-60209A463B34/Liver_CP_Nuclei.bigwig
+shortLabel ATAC_Liver_AH2
+longLabel ATAC coverage track from AH2 Liver, using fresh nuclei
+type bigWig
+visibility dense
+
+track ATAC_Liver_AH1
+bigDataUrl: https://de.cyverse.org/dl/d/209985DC-5340-43C2-89A0-7738EFE269F7/Liver_GS_Nuclei.bigwig
+shortLabel ATAC_Liver_AH1
+longLabel ATAC coverage track from AH1 Liver, using fresh nuclei
+type bigWig
+visibility dense
