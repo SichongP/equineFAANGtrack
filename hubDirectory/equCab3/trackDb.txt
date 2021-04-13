@@ -157,6 +157,16 @@ subGroup3 sample Sample \
 dimensions dimx=sample dimY=tissue
 sortOrder tissue=+ sample=+ view=+
 
+    track CTCF_peakView
+    parent CTCF
+    shortLabel Peaks
+    view PK
+    visibility dense
+    type bigBed 9 +
+    scoreFilter 0
+    scoreFilterLimits 0:1000
+    viewUi on
+
     track CTCF_signalView
     parent CTCF
     shortLabel Signal
