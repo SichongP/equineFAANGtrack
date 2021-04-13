@@ -16,7 +16,7 @@ subGroup3 sample Sample \
 dimensions dimx=sample dimY=tissue
 sortOrder tissue=+ sample=+ view=+
 
-    track peakView
+    track ATAC_peakView
     parent ATAC
     shortLabel Peaks
     view PK
@@ -82,7 +82,7 @@ sortOrder tissue=+ sample=+ view=+
         alwaysZero on
         autoScale on
 
-    track signalView
+    track ATAC_signalView
     parent ATAC
     shortLabel Signal
     view SIG
@@ -160,7 +160,7 @@ subGroup3 sample Sample \
 dimensions dimx=sample dimY=tissue
 sortOrder tissue=+ sample=+ view=+
 
-    track peakView
+    track CTCF_peakView
     parent CTCF
     shortLabel Peaks
     view PK
@@ -170,7 +170,7 @@ sortOrder tissue=+ sample=+ view=+
     scoreFilterLimits 0:1000
     viewUi on
 
-    track signalView
+    track CTCF_signalView
     parent CTCF
     shortLabel Signal
     view SIG
