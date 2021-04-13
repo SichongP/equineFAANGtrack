@@ -68,7 +68,7 @@ visibility dense
 smoothingWindow 4
 graphTypeDefault points
 alwaysZero on
-autoScale
+autoScale on
 
 track CTCF_Brain_AH2
 bigDataUrl https://de.cyverse.org/dl/d/AC110692-A394-4865-8E28-B51154BE8D40/CP_Brain_scaled.bw
