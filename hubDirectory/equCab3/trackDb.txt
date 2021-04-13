@@ -83,6 +83,9 @@ dimensions dimx=sample dimY=tissue
 sortOrder tissue=+ sample=+
 
 track CTCF_Adipose_AH2
+parent CTCF on
+subGroups tissue=Adipose sample=AH2
+autoScale group
 bigDataUrl https://de.cyverse.org/dl/d/65524C4B-504C-418E-BA5C-526BC26ADEC0/CP_Adipose_scaled.bw
 shortLabel CTCF_Adipose_AH2
 longLabel CTCF coverage track from AH2 Adipose
