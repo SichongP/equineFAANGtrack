@@ -10,7 +10,7 @@ dragAndDrop subTracks
 subGroup1 tissue Tissue \
         liver=Liver \
         lamina=Lamina
-
+itemRgb on
 dimensions dimx=tissue
 sortOrder tissue=+
 
