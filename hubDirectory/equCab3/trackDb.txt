@@ -1,3 +1,91 @@
+track Chromatin_states
+compositeTrack on
+shortLabel ChromHMM
+longLabel equine Chromatin states
+type bigBed 9 +
+scoreFilter 0
+scoreFilterLimits 0:1000
+allButtonPair on
+dragAndDrop subTracks
+subGroup1 tissue Tissue \
+        liver=Liver \
+        lamina=Lamina
+
+dimensions dimx=tissue
+sortOrder tissue=+
+
+    track Lamina
+    parent Chromatin_states on
+    subGroups tissue=Lamina
+    bigDataUrl bigBed/ChromHMM/Lamina_14_dense.bigBed
+    shortLabel Lamina Chromatin States
+    longLabel Lamina Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+    
+    track Liver
+    parent Chromatin_states on
+    subGroups tissue=Liver
+    bigDataUrl bigBed/ChromHMM/Liver_14_dense.bigBed
+    shortLabel Liver Chromatin States
+    longLabel Liver Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+
+    track Adipose
+    parent Chromatin_states on
+    subGroups tissue=Adipose
+    bigDataUrl bigBed/ChromHMM/Adipose_14_dense.bigBed
+    shortLabel Adipose Chromatin States
+    longLabel Adipose Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+    
+    track Brain
+    parent Chromatin_states on
+    subGroups tissue=Brain
+    bigDataUrl bigBed/ChromHMM/Brain_14_dense.bigBed
+    shortLabel Brain Chromatin States
+    longLabel Brain Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense    
+
+    track Heart
+    parent Chromatin_states on
+    subGroups tissue=Heart
+    bigDataUrl bigBed/ChromHMM/Heart_14_dense.bigBed
+    shortLabel Heart Chromatin States
+    longLabel Heart Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+
+    track Lung
+    parent Chromatin_states on
+    subGroups tissue=Lung
+    bigDataUrl bigBed/ChromHMM/Lung_14_dense.bigBed
+    shortLabel Lung Chromatin States
+    longLabel Lung Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+
+    track Ovary
+    parent Chromatin_states on
+    subGroups tissue=Ovary
+    bigDataUrl bigBed/ChromHMM/Ovary_14_dense.bigBed
+    shortLabel Ovary Chromatin States
+    longLabel Ovary Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+
+    track SkeletalMuscle
+    parent Chromatin_states on
+    subGroups tissue=SkeletalMuscle
+    bigDataUrl bigBed/ChromHMM/SkeletalMuscle_14_dense.bigBed
+    shortLabel SkeletalMuscle Chromatin States
+    longLabel SkeletalMuscle Chromatin States, called by ChromHMM, From AH1 and AH2
+    type bigBed
+    visibility dense
+
 track ATAC
 compositeTrack on
 shortLabel ATAC
