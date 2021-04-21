@@ -236,11 +236,9 @@ subGroup2 tissue Tissue \
         lung=Lung \
         muscle=Muscle \
         ovary=Ovary
-subGroup3 sample Sample \
-        AH1=AH1 \
-        AH2=AH2
-dimensions dimx=sample dimY=tissue
-sortOrder tissue=+ sample=+ view=+
+
+dimensions dimX=tissue
+sortOrder tissue=+ view=+
 
     track CTCF_peakView
     parent CTCF
@@ -252,163 +250,83 @@ sortOrder tissue=+ sample=+ view=+
     scoreFilterLimits 0:1000
     viewUi on
 
-        track CTCF_Liver_AH2_peak
+        track CTCF_Liver_peak
         parent CTCF_peakView on
-        subGroups tissue=liver sample=AH2 view=PK
+        subGroups tissue=liver view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Liver.bigBed
-        shortLabel Liver AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Liver, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Liver_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=liver sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Liver.bigBed
-        shortLabel Liver AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Liver, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Liver.bigBed
+        shortLabel Liver CTCF peaks
+        longLabel CTCF peaks from Liver, called by MACS2
         type bigBed
         visibility dense
 
-        track CTCF_Lamina_AH2_peak
+        track CTCF_Lamina_peak
         parent CTCF_peakView on
-        subGroups tissue=lamina sample=AH2 view=PK
+        subGroups tissue=lamina view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Lamina.bigBed
-        shortLabel Lamina AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Lamina, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Lamina_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=lamina sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Lamina.bigBed
-        shortLabel Lamina AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Lamina, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Lamina.bigBed
+        shortLabel Lamina CTCF peaks
+        longLabel CTCF peaks fromLamina, called by MACS2
         type bigBed
         visibility dense
 
-        track CTCF_Adipose_AH2_peak
+        track CTCF_Adipose_peak
         parent CTCF_peakView on
-        subGroups tissue=adipose sample=AH2 view=PK
+        subGroups tissue=adipose view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Adipose.bigBed
-        shortLabel Adipose AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Adipose, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Adipose_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=adipose sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Adipose.bigBed
-        shortLabel Adipose AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Adipose, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Adipose.bigBed
+        shortLabel Adipose CTCF peaks
+        longLabel CTCF peaks from Adipose, called by MACS2
         type bigBed
         visibility dense
 
-        track CTCF_Brain_AH2_peak
+        track CTCF_Brain_peak
         parent CTCF_peakView on
-        subGroups tissue=brain sample=AH2 view=PK
+        subGroups tissue=brain view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Brain.bigBed
-        shortLabel Brain AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Brain, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Brain_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=brain sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Brain.bigBed
-        shortLabel Brain AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Brain, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Brain.bigBed
+        shortLabel Brain CTCF peaks
+        longLabel CTCF peaks from Brain, called by MACS2
         type bigBed
         visibility dense
 
-        track CTCF_Heart_AH2_peak
+        track CTCF_Heart_peak
         parent CTCF_peakView on
-        subGroups tissue=heart sample=AH2 view=PK
+        subGroups tissue=heart view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Heart.bigBed
-        shortLabel Heart AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Heart, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Heart_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=heart sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Heart.bigBed
-        shortLabel Heart AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Heart, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Heart.bigBed
+        shortLabel Heart CTCF peaks
+        longLabel CTCF peaks from Heart, called by MACS2
         type bigBed
         visibility dense
 
-        track CTCF_Lung_AH2_peak
+        track CTCF_Lung_peak
         parent CTCF_peakView on
-        subGroups tissue=lung sample=AH2 view=PK
+        subGroups tissue=lung view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Lung.bigBed
-        shortLabel Lung AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Lung, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Lung.bigBed
+        shortLabel Lung CTCF peaks
+        longLabel CTCF peaks from Lung, called by MACS2
         type bigBed
         visibility dense
         
-        track CTCF_Lung_AH1_peak
+        track CTCF_Muscle_peak
         parent CTCF_peakView on
-        subGroups tissue=lung sample=AH1 view=PK
+        subGroups tissue=muscle view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Lung.bigBed
-        shortLabel Lung AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Lung, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Muscle_AH2_peak
-        parent CTCF_peakView on
-        subGroups tissue=muscle sample=AH2 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Muscle.bigBed
-        shortLabel Muscle AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Muscle, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Muscle_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=muscle sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Muscle.bigBed
-        shortLabel Muscle AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Muscle, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Muscle.bigBed
+        shortLabel Muscle CTCF peaks
+        longLabel CTCF peaks from Muscle, called by MACS2
         type bigBed
         visibility dense
 
-        track CTCF_Ovary_AH2_peak
+        track CTCF_Ovary_peak
         parent CTCF_peakView on
-        subGroups tissue=ovary sample=AH2 view=PK
+        subGroups tissue=ovary view=PK
         autoScale group
-        bigDataUrl bigBed/CTCF/AH2_Ovary.bigBed
-        shortLabel Ovary AH2 CTCF peaks
-        longLabel CTCF peaks from AH2 Ovary, called by MACS2, verified by MSPC with replicates
-        type bigBed
-        visibility dense
-        
-        track CTCF_Ovary_AH1_peak
-        parent CTCF_peakView on
-        subGroups tissue=ovary sample=AH1 view=PK
-        autoScale group
-        bigDataUrl bigBed/CTCF/AH1_Ovary.bigBed
-        shortLabel Ovary AH1 CTCF peaks
-        longLabel CTCF peaks from AH1 Ovary, called by MACS2, verified by MSPC with replicates
+        bigDataUrl bigBed/CTCF/Ovary.bigBed
+        shortLabel Ovary CTCF peaks
+        longLabel CTCF peaks from Ovary, called by MACS2
         type bigBed
         visibility dense
 
@@ -423,180 +341,92 @@ sortOrder tissue=+ sample=+ view=+
     viewUi on
     visibility full
 
-        track CTCF_Adipose_AH2_signal
+https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adipose.cmp.bw
+
+        track CTCF_Adipose_signal
         parent CTCF_signalView on
-        subGroups tissue=adipose sample=AH2 view=SIG
+        subGroups tissue=adipose view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/65524C4B-504C-418E-BA5C-526BC26ADEC0/CP_Adipose_scaled.bw
-        shortLabel Adipose AH2 bigwig
-        longLabel CTCF coverage track from AH2 Adipose
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adipose.cmp.bw
+        shortLabel Adipose bigwig
+        longLabel CTCF coverage track from Adipose
         type bigWig
         smoothingWindow 4
-        graphTypeDefault points
         alwaysZero on
         autoScale group
 
-        track CTCF_Brain_AH2_signal
+        track CTCF_Brain_signal
         parent CTCF_signalView on
-        subGroups tissue=brain sample=AH2 view=SIG
+        subGroups tissue=brain view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/AC110692-A394-4865-8E28-B51154BE8D40/CP_Brain_scaled.bw
-        shortLabel Brain AH2 bigwig
-        longLabel CTCF coverage track from AH2 Brain
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Brain.cmp.bw
+        shortLabel Brain bigwig
+        longLabel CTCF coverage track from Brain
         type bigWig
         smoothingWindow 4
 
-        track CTCF_Heart_AH2_signal
+        track CTCF_Heart_signal
         parent CTCF_signalView on
-        subGroups tissue=heart sample=AH2 view=SIG
+        subGroups tissue=heart sview=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/D7EB729D-4283-4A47-A238-112FDA729FDC/CP_Heart_scaled.bw
-        shortLabel Heart AH2 bigwig
-        longLabel CTCF coverage track from AH2 Heart
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Lamina_AH2_signal
-        parent CTCF_signalView on
-        subGroups tissue=lamina sample=AH2 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/5DED53B2-424C-45E0-8B94-4D81C2558E7E/CP_Lamina_scaled.bw
-        shortLabel Lamina AH2 bigwig
-        longLabel CTCF coverage track from AH2 Lamina
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Heart.cmp.bw
+        shortLabel Heart bigwig
+        longLabel CTCF coverage track from Heart
         type bigWig
         alwaysZero on
         smoothingWindow 4
 
-        track CTCF_Liver_AH2_signal
+        track CTCF_Lamina_signal
         parent CTCF_signalView on
-        subGroups tissue=liver sample=AH2 view=SIG
+        subGroups tissue=lamina view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/D98F24C0-D305-4EF8-A6FC-B584ABD7EF14/CP_Liver_scaled.bw
-        shortLabel Liver AH2 bigwig
-        longLabel CTCF coverage track from AH2 Liver
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Lamina.cmp.bw
+        shortLabel Lamina bigwig
+        longLabel CTCF coverage track from Lamina
         type bigWig
         alwaysZero on
         smoothingWindow 4
 
-        track CTCF_Lung_AH2_signal
+        track CTCF_Liver_signal
         parent CTCF_signalView on
-        subGroups tissue=lung sample=AH2 view=SIG
+        subGroups tissue=liver view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/BCF75319-AA0D-45F1-B81E-065B7D919A7B/CP_Lung_scaled.bw
-        shortLabel Lung AH2 bigwig
-        longLabel CTCF coverage track from AH2 Lung
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Liver.cmp.bw
+        shortLabel Liver bigwig
+        longLabel CTCF coverage track from Liver
         type bigWig
         alwaysZero on
         smoothingWindow 4
 
-        track CTCF_Muscle_AH2_signal
+        track CTCF_Lung_signal
         parent CTCF_signalView on
-        subGroups tissue=muscle sample=AH2 view=SIG
+        subGroups tissue=lung view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/C969C5B3-10CC-4907-8905-448C7B544228/CP_Muscle_scaled.bw
-        shortLabel Muscle AH2 bigwig
-        longLabel CTCF coverage track from AH2 Muscle
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Lung.cmp.bw
+        shortLabel Lung bigwig
+        longLabel CTCF coverage track from Lung
         type bigWig
         alwaysZero on
         smoothingWindow 4
 
-        track CTCF_Ovary_AH2_signal
+        track CTCF_Muscle_signal
         parent CTCF_signalView on
-        subGroups tissue=ovary sample=AH2 view=SIG
+        subGroups tissue=muscle view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/1F4718EF-D85F-488D-B9EE-BE957CA4DD43/CP_Ovary_scaled.bw
-        shortLabel Ovary AH2 bigwig
-        longLabel CTCF coverage track from AH2 Ovary
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Muscle.cmp.bw
+        shortLabel Muscle bigwig
+        longLabel CTCF coverage track from Muscle
         type bigWig
         alwaysZero on
         smoothingWindow 4
 
-        track CTCF_Adipose_AH1_signal
+        track CTCF_Ovary_signal
         parent CTCF_signalView on
-        subGroups tissue=adipose sample=AH1 view=SIG
+        subGroups tissue=ovary view=SIG
         autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/EF3A3088-2E83-4C1B-9647-9B2D8A4C17A3/GS_Adipose_scaled.bw
-        shortLabel Adipose AH1 bigwig
-        longLabel CTCF coverage track from AH1 Adipose
+        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Ovary.cmp.bw
+        shortLabel Ovary bigwig
+        longLabel CTCF coverage track from Ovary
         type bigWig
         alwaysZero on
         smoothingWindow 4
-
-        track CTCF_Brain_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=brain sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/EBCB626C-93B1-4F7F-9145-F2D1CF50FFE9/GS_Brain_scaled.bw
-        shortLabel Brain AH1 bigwig
-        longLabel CTCF coverage track from AH1 Brain
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Heart_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=heart sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/AEE74A43-886D-4416-804D-1D8A8A9C52CF/GS_Heart_scaled.bw
-        shortLabel Heart AH1 bigwig
-        longLabel CTCF coverage track from AH1 Heart
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Lamina_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=lamina sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/579D4786-A534-41AA-AC35-65B8C3922D5E/GS_Lamina_scaled.bw
-        shortLabel Lamina AH1 bigwig
-        longLabel CTCF coverage track from AH1 Lamina
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Liver_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=liver sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/78EAB862-C566-4A9E-A92F-A2915CFDF4F6/GS_Liver_scaled.bw
-        shortLabel Liver AH1 bigwig
-        longLabel CTCF coverage track from AH1 Liver
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Lung_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=lung sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/182E0CAC-E756-41BB-B773-D29CE06CD782/GS_Lung_scaled.bw
-        shortLabel Lung AH1 bigwig
-        longLabel CTCF coverage track from AH1 Lung
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Muscle_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=muscle sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/21BC9B7B-54F1-40E5-808F-634837B0ADE8/GS_Muscle_scaled.bw
-        shortLabel Muscle AH1 bigwig
-        longLabel CTCF coverage track from AH1 Muscle
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
-        track CTCF_Ovary_AH1_signal
-        parent CTCF_signalView on
-        subGroups tissue=ovary sample=AH1 view=SIG
-        autoScale group
-        bigDataUrl https://de.cyverse.org/dl/d/7488C3F1-F39F-4124-A41C-952F5E2CD6A9/GS_Ovary_scaled.bw
-        shortLabel Ovary AH1 bigwig
-        longLabel CTCF coverage track from AH1 Ovary
-        type bigWig
-        alwaysZero on
-        smoothingWindow 4
-
