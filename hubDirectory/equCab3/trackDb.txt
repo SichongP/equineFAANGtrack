@@ -347,7 +347,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=adipose view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adipose.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/19CEA1DA-FDAB-4A96-BCEA-1B959B837F3E/Adipose.cmp.bw
         shortLabel Adipose bigwig
         longLabel CTCF coverage track from Adipose
         type bigWig
@@ -359,7 +359,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=brain view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Brain.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/CEAF2C1A-A52C-48F3-A64B-F77FA17E2BED/Brain.cmp.bw
         shortLabel Brain bigwig
         longLabel CTCF coverage track from Brain
         type bigWig
@@ -369,7 +369,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=heart sview=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Heart.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/2D157A1B-EA10-4588-924F-8871FA4E8CD3/Heart.cmp.bw
         shortLabel Heart bigwig
         longLabel CTCF coverage track from Heart
         type bigWig
@@ -380,7 +380,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=lamina view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Lamina.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/6C26375D-5ABF-4A83-9DCD-5E0F6BDA13EA/Lamina.cmp.bw
         shortLabel Lamina bigwig
         longLabel CTCF coverage track from Lamina
         type bigWig
@@ -391,7 +391,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=liver view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Liver.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/47BE46B0-BF3E-4EE8-8895-7D20F57EC0F3/Liver.cmp.bw
         shortLabel Liver bigwig
         longLabel CTCF coverage track from Liver
         type bigWig
@@ -402,7 +402,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=lung view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Lung.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/F008A7C6-6490-4F81-B45E-8CB9BFB336A1/Lung.cmp.bw
         shortLabel Lung bigwig
         longLabel CTCF coverage track from Lung
         type bigWig
@@ -413,7 +413,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=muscle view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Muscle.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/884785B9-35D1-4601-9407-36E8B64B2575/Muscle.cmp.bw
         shortLabel Muscle bigwig
         longLabel CTCF coverage track from Muscle
         type bigWig
@@ -424,7 +424,7 @@ https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Adi
         parent CTCF_signalView on
         subGroups tissue=ovary view=SIG
         autoScale group
-        bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sichong/data/FAANG/CTCF/bigwig/Ovary.cmp.bw
+        bigDataUrl https://de.cyverse.org/dl/d/CE912680-68AD-4617-AFFC-AE562A6B1003/Ovary.cmp.bw
         shortLabel Ovary bigwig
         longLabel CTCF coverage track from Ovary
         type bigWig
