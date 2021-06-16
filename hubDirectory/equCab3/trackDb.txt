@@ -7,6 +7,7 @@ scoreFilter 0
 scoreFilterLimits 0:1000
 allButtonPair on
 dragAndDrop subTracks
+itemRgb on
 subGroup1 tissue Tissue \
         liver=Liver \
         lamina=Lamina \
